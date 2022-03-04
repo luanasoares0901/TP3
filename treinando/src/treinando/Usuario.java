@@ -12,8 +12,9 @@ public class Usuario {
 	private long telefone;
 	private String email;
 	private long senha;
+	private Cartao cartao;
 	
-	public Usuario(int i, String n,String m,long c,Date d,long t,String e, long s ) {
+	public Usuario(int i, String n,String m,long c,Date d,long t,String e, long s, Cartao k ) {
 		idUsuario=i;
 		n=nome;
 		m=nacion;
@@ -22,6 +23,16 @@ public class Usuario {
 		t=telefone;
 		e=email;
 		s=senha;
+		k=cartao;
+		
+	}
+
+	public Cartao getCartao() {
+		return cartao;
+	}
+
+	public void setCartao(Cartao cartao) {
+		this.cartao = cartao;
 	}
 
 	public int getIdUsuario() {

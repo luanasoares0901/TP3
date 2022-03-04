@@ -3,13 +3,13 @@ package treinando;
 public class Bicicleta {
 	
 	private int id; 
-	private String local; 
+	private Estacao estacao; 
 	private boolean status;
 	
 	
-	public Bicicleta(int i, String l, boolean s) { //construtor
+	public Bicicleta(int i, Estacao e, boolean s) { //construtor
 		id=i;
-		local=l;
+		estacao =e;
 		status=s;
 	}
 	
@@ -26,14 +26,14 @@ public class Bicicleta {
 
 
 
-	public String getLocal() {
-		return local;
+	public Estacao getEstacao() {
+		return estacao;
 	}
 
 
 
-	public void setLocal(String local) {
-		this.local = local;
+	public void setEstacao(Estacao estacao) {
+		this.estacao = estacao;
 	}
 
 
