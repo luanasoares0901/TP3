@@ -9,7 +9,7 @@ public class PAnual implements IPlanoEmpr{
     protected Date dataPgt;
     
     @Override
-    public void cadastrarEmp() {
+    public void cadastrarEmp() { 
         // TODO Auto-generated method stub
         
     }
