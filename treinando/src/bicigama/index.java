@@ -18,7 +18,7 @@ public class index {
 				 System.out.println(userExperimental.getIdUsuario());
 			 }else {
 				 if(opcao==2) {
-					 System.out.println("Essa funcionalidade ainda não está disponível :(");
+					 System.out.println("Essa funcionalidade ainda não está disponível :( ");
 				 }
 			 }
 		}
