@@ -1,4 +1,4 @@
-package treinando;
+package bicigama;
 
 public interface IPlanoEmpr { // Interface Plano  de Emprestimo
     public void cadastrarEmp();

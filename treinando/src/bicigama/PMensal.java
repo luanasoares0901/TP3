@@ -1,4 +1,4 @@
-package treinando;
+package bicigama;
 
 import java.sql.Date;
 
