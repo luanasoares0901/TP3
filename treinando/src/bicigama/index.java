@@ -15,6 +15,7 @@ public class index {
 			 
 			 if(opcao==1) {
 				 System.out.println(userExperimental.getNome());
+				 System.out.println(userExperimental.getIdUsuario());
 			 }else {
 				 if(opcao==2) {
 					 System.out.println("Essa funcionalidade ainda não está disponível :(");
