@@ -1,9 +1,25 @@
 package bicigama;
-//import java.util.Scanner;
+import java.util.Scanner;
 
 public class index {
 	 public static void main (String[] a)   {   
-		 //public static Scanner ler = new Scanner(System.in);
-		 System.out.println("Bem-vindo(a) ao bicigama!");
+		 try (Scanner ler = new Scanner(System.in)) {
+			int opcao;
+			 
+			 UserExperimental userExperimental = new UserExperimental(220, "maria", "brasileira", 111111111, null, 40029009, "maria@gmail.com", 1110, false);
+			 System.out.println("Bem-vindo(a) ao bicigama!");
+			 System.out.println("----MENU----");
+			 System.out.println("1 - Mostrar usuário");
+			 System.out.println("2 - Mostrar estacao");
+			 opcao = ler.nextInt();
+			 
+			 if(opcao==1) {
+				 System.out.println(userExperimental.getNome());
+			 }else {
+				 if(opcao==2) {
+					 System.out.println("Essa funcionalidade ainda não está disponível :(");
+				 }
+			 }
+		}
      }  
 }
