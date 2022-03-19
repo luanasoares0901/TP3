@@ -1,4 +1,4 @@
-package bicigama;
+package modelo;
 
 public class Estacao {
 	

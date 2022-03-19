@@ -1,4 +1,4 @@
-package bicigama;
+package modelo;
 
 public interface IPlanoEmpr { // Interface Plano  de Emprestimo
     public void cadastrarEmp();
