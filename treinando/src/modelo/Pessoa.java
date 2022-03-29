@@ -12,6 +12,8 @@ public class Pessoa {
 	public String email;
 	protected long senha;
 	
+
+	
 	public Pessoa(int i, String n,String m,long c,Date d,long t,String e, long s) {
 		idUsuario=i;
 		n=nome;

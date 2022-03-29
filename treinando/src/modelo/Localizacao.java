@@ -91,6 +91,12 @@ public class Localizacao {
 	public void setCep(double cep) {
 		this.cep = cep;
 	}
+
+
+	public static int parseLocalizacao(String string) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 	
 	
 

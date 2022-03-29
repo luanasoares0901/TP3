@@ -1,7 +1,7 @@
 package modelo;
 
 public class Estacao {
-	
+	public Estacao[] est;
 	private Localizacao local;
 	private int idLocal;
 	private Bicicleta bike;

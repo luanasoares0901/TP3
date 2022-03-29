@@ -9,7 +9,7 @@ import javax.swing.JTextField;
 
 public class ViewLogin {
 
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		JFrame frame = new JFrame("BiciGama");
 		frame.setSize(650, 500);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -19,7 +19,7 @@ public class ViewLogin {
 		placeComponents(panel);
 
 		frame.setVisible(true);
-	}
+	}*/
 
 	private static void placeComponents(JPanel panel) {
 
